@@ -6,12 +6,6 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "jira-view:backlog",
-    "atom-workspace": "jira-view:working",
-    "atom-workspace": "jira-view:testing",
-    "atom-workspace": "jira-view:verified",
-    "atom-workspace": "jira-view:closed",
-    "atom-workspace": "jira-view:test"
   },
   "repository": "https://github.com/philfest/jira-view",
   "license": "MIT",
