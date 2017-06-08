@@ -1,0 +1,38 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jira-view",
+          "submenu": [
+            {
+              "label": "Backlog",
+              "command": "jira-view:backlog"
+            },
+            {
+              "label": "Working",
+              "command": "jira-view:working"
+            },
+            {
+              "label": "Testing",
+              "command": "jira-view:testing"
+            },
+            {
+              "label": "Verified",
+              "command": "jira-view:verified"
+            },
+            {
+              "label": "Closed",
+              "command": "jira-view:closed"
+            },
+            {
+              "label": "test",
+              "command": "jira-view:test"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

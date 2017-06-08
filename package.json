@@ -1,0 +1,23 @@
+{
+  "name": "jira-view",
+  "main": "./lib/jira-view",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "jira-view:backlog",
+    "atom-workspace": "jira-view:working",
+    "atom-workspace": "jira-view:testing",
+    "atom-workspace": "jira-view:verified",
+    "atom-workspace": "jira-view:closed",
+    "atom-workspace": "jira-view:test"
+  },
+  "repository": "https://github.com/philfest/jira-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
